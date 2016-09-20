@@ -1,6 +1,4 @@
-# "Intro to Shiny, R Markdown, & HTML Widgets - Application in Drug Development"
-# author: "Phil Bowsher - 2016 Midwest Biopharmaceutical Statistics Workshop"
-# date: "Monday, May 16th, 2016"
+# Intro to Shiny, R Markdown, & HTML Widgets - Application in Drug Development by Phil Bowsher at the 2016 Midwest Biopharmaceutical Statistics Workshop on Monday, May 16th, 2016
 
 Live Presentation is here:
 
