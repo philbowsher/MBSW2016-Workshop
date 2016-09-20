@@ -9,7 +9,7 @@ Presentations and code from workshop.
 Requires the following packages from CRAN:
 
 ```r
-install.packages(c("leaflet", "shiny", "shinydashboard", "rmarkdown", "flex_dashboard", "openfda", "ggplot2", "plotly", "openfda", "plyr", "reshape2",, "ggplot2",))
+install.packages(c("leaflet", "shiny", "shinydashboard", "rmarkdown", "flex_dashboard", "openfda", "ggplot2", "plotly", "openfda", "plyr", "reshape2"))
 ``` 
 
 An up-to-date version of RStudio is also recommended.
