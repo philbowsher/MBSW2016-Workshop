@@ -1,0 +1,182 @@
+---
+title: "Intro to Shiny, R Markdown, & HTML Widgets - Application in Drug Development"
+output: 
+  html_document: 
+    highlight: textmate
+    toc: yes
+    toc_float: 
+      collapsed: no
+    theme: cosmo
+---
+
+## Introduction
+
+R is a powerful programming language for statistical computing with many packages and tools with application in drug development. 
+
+The goal of this article is to arm you with tools and techniques for using R with application in drug development. This article is supplimental to the workshop at the 2016 Midwest Biopharmaceutical Statistics Workshop on
+Monday, May 16th, 2016.
+
+We'll cover three main approaches:
+
+1. **Shiny**
+
+    A web application framework for R.
+
+2. **R Markdown**
+  
+    R Markdown provides an authoring framework for data science and documents are fully reproducible and support dozens of static and dynamic output formats.
+
+3. **HTML Widgets**
+
+    R bindings to JavaScript libraries.
+    
+4. **Applications in Drug Development**
+
+    Live apps, analysis, tools and research.
+
+### Shiny
+
+### Shiny Development Example - 1 - Setup - 050-kmeans-example
+
+- Go [here](http://shiny.rstudio.com/gallery/kmeans-example.html)
+- Create a new multi file shiny app in the IDE by going to 'File' and select 'New File' and select 'Shiny Web App...' and create a new multiple file app and title it 'clustering'
+- Copy over the ui.R and app.R files with the code found [here:](https://github.com/rstudio/shiny-examples/tree/master/050-kmeans-example)
+- Click 'Run App' in the IDE when done
+
+### Shiny Development Example - 2 - cluster_ecoli_shiny
+
+- E.coli Example - Adaption of the app by Ichsan Hariadi
+- Data are [here](https://archive.ics.uci.edu/ml/datasets/Ecoli)
+- Run the ui.R file in the cluster_ecoli_shiny folder
+
+### Shiny Development Example - 3 - clusterMBSW
+
+- shinydashboard - An adaptation of the Ecoli app to demonstrate the shinydashboard package.
+- Data are [here](https://archive.ics.uci.edu/ml/datasets/Ecoli)
+- Run the app.R file in the clusterMBSW folder
+
+### Shiny Development Example - 4 - flexdashboard - Publish Data Visualizations as a Dashboard
+
+- [flexdashboard](http://rmarkdown.rstudio.com/flexdashboard/)
+- [Gene Expression Biclustering - Bryan Lewis](https://jjallaire.shinyapps.io/shiny-biclust/)
+- [Iris K-Means Clustering](https://jjallaire.shinyapps.io/shiny-kmeans/)
+
+## R Markdown
+
+### Example R Markdown Doc -- `Example.RMD`
+
+- Create a new R Markdown document in the IDE by going to 'File' and select 'New File' and select 'R Markdown...' and create a new document and leave output as HTML
+- Then select Knit and save it as Example.RMD
+
+### OpenFDA Analysis - R Markdown Report Demo - pharmarmd.Rmd
+
+- [ropenhealth/openfda](https://github.com/rOpenHealth/openfda)
+- [openFDA API endpoint for adverse drug events](https://open.fda.gov/drug/event/)
+- [openfda-dashboard information](https://github.com/statwonk/openfda-dashboard/blob/master/about2.Rmd)
+- [openFDA reference guide](https://open.fda.gov/drug/event/reference/)
+- [Ten things to know about drug adverse events](https://open.fda.gov/update/ten-things-to-know-about-adverse-events/)
+
+### Example R Markdown Doc with Embed shiny App
+
+ - In IDE - go to 'File', then 'New File' and 'R Markdown'
+ - Then select 'Shiny' on the left and name the document
+ - Click Ok
+ - This is now an [interactive document](http://rmarkdown.rstudio.com/authoring_shiny.html)- an R Markdown file that contains Shiny components and can be an app or used within a report
+ 
+### Shiny/R Markdown Examples
+
+- [FDA Adverse (Drug) Event Dashboard](https://github.com/statwonk/openfda-dashboard)
+- [interAdapt - An Interactive Planner for Group Sequential, Adaptive Enrichment Designs](https://michaelrosenblum.shinyapps.io/interAdapt/)
+- [Export a report from Shiny - Simple Example](http://shiny.rstudio.com/gallery/download-knitr-reports.html)
+ - [AplusB: A + B design investigator for phase I dose-escalation studies](https://graham-wheeler.shinyapps.io/AplusB/)
+
+## HTML Widgets
+
+### HTML Widgets &mdash; Leaflet Example - Leaflet.R
+
+- Leaflet Example 
+- Viewing Starbucks Locations Near the MBSW Conference
+- Loads a Data Set
+
+### Common Reporting Tasks - rpivotTable & DT
+
+- [rpivotTable - Package created by Enzo Martoglio](https://github.com/smartinsightsfromdata/rpivotTable)
+- [DT: An R interface to the DataTables library by RStudio](https://rstudio.github.io/DT/)
+- [ggplot2 is a graphing library for R. Use ggplot2 with Plotly to create interactive, online ggplot2 charts with D3.js.](https://plot.ly/ggplot2/)
+
+## Applications in Drug Development
+
+### Live Apps & Analysis 1
+
+#### Pharmacokinetics
+ - [Interactive Pharmacometric Applications Using R and the Shiny Package](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4394611/)
+- [Bioequivalence v0.3 by Andrey Ogurtsov](https://statist.shinyapps.io/bioeq_en/)
+ - [Glucose Insulin Dynamics and SGLT 1/2 inhibition](http://qsp.engr.uga.edu:3838/GluIns/GluIns1.d/)
+
+#### Immunogenicity & Adverse Advents
+ - [Immunogenicity Assessments](http://www.ncbi.nlm.nih.gov/pubmed/25733352) 
+ - [shiny Applications with openFDA Data](http://www.gersonides.com/openfda/)
+ - [Repository of shiny apps that use the openfda API](https://github.com/jonathanglevine/openfdashinyapps)
+ - [ropenhealth/openfda](https://github.com/rOpenHealth/openfda) & [adverse events analysis by Fisseha Berhane](http://datascienceplus.com/working-with-databases-in-r/)
+
+#### Clinical Trials
+- [interAdapt - An Interactive Planner for Group Sequential, Adaptive Enrichment Designs](https://michaelrosenblum.shinyapps.io/interAdapt/) & [here](http://arxiv.org/pdf/1404.0734.pdf)
+ - [AplusB: A + B design investigator for phase I dose-escalation studies](https://graham-wheeler.shinyapps.io/AplusB/)
+ - [medplot by Crt Ahlin & Lara Lusa to  facilitate the exploration and analysis of longitudinal data](http://shiny.mf.uni-lj.si/medplot/)
+  - [Application to visualize meta-analysis as physical weights on scales](https://chjackson.shinyapps.io/MetaAnalyser/)
+  - [BioPET is a tool for helping investigators evaluate whether a biomarker or risk model is useful for prognostic enrichment of a clinical trial](https://jhroth.shinyapps.io/WebApp/)
+  - [gsDesign R package for deriving and describing group sequential designs trials by Keaven Anderson](https://cran.r-project.org/web/packages/gsDesign/index.html) & [here](https://www.youtube.com/watch?v=CJoHdbF2wE4)
+  
+#### Genomics & Proteomics
+  - [Gene Expression Biclustering - Bryan Lewis](https://jjallaire.shinyapps.io/shiny-biclust/)
+  - [Visualize and explore an entire genome](https://gallery.shinyapps.io/genome_browser/)
+  - [Use phenotypes and genotypes to detect novel disease gene candidates ](http://omimexplorer.research.bcm.edu:3838/omim_explorer/)
+  - [Visualisation of proteomics data using R and Bioconductor](https://www.bioconductor.org/packages/release/data/experiment/vignettes/RforProteomics/inst/doc/RProtVis.html)
+  
+#### Teaching
+ - [Web Application Teaching Tools for Statistics Using R and Shiny](http://escholarship.org/uc/item/00d4q8cp)
+
+#### Report Generation & Automation for Clinical Research
+
+ - [Shiny package](http://shiny.rstudio.com/) & [Shiny Server](https://www.rstudio.com/products/shiny/download-server/)
+ - [R Markdown](http://rmarkdown.rstudio.com/)
+ - [Sweave and knitr...](https://support.rstudio.com/hc/en-us/articles/200552056-Using-Sweave-and-knitr) [knitr is an engine for dynamic report generation with R. It enables integration of R code into LaTeX, LyX, HTML, Markdown, AsciiDoc, & reStructuredText documents. ](https://cran.r-project.org/web/packages/knitr/index.html)
+  - [LaTex Directions to use Sweave and knitr to create PDF reports.](http://www.latex-project.org/get/)
+  - [The RTF package, a set of R functions to output Rich Text Format RTF files with high resolution tables & graphics.](https://cran.r-project.org/web/packages/rtf/rtf.pdf)
+ - [ReporteRs by David Gohel: Microsoft Word, Microsoft PowerPoint & HTML Documents Generation from R](https://cran.r-project.org/web/packages/ReporteRs/index.html)[formerly R2DOCX package](http://davidgohel.github.io/R2DOCX/index.html)
+
+#### Report Generation & Automation for Clinical Research Cont.
+
+ - [CRAN Task View: Reproducible Research](https://cran.r-project.org/web/views/ReproducibleResearch.html)
+ - [xtable: Export Tables to LaTeX or HTML](https://cran.r-project.org/web/packages/xtable/index.html)
+ - [DT: An R interface to the DataTables library](http://rstudio.github.io/DT/)
+  - [R Markdown Document Templates - re-usable document templates](http://rmarkdown.rstudio.com/developer_document_templates.html)
+
+#### Clinical Research
+  - [Using R in a regulatory environment: FDA experiences](https://www.youtube.com/watch?v=2MqVklf2sBU)
+  - [LRT Signal Analysis for a Drug](https://openfda.shinyapps.io/LRTest/)
+  - [Unfulfilled? Potential of R in Clinical Research](https://berlinrug.github.io/BerlinRUG/20151029/unfulfilled-potential-of-r-in-clinical-research/Parsadanyan_R%20in%20Clinical%20Research_fixed.pdf)
+  - [Leveraging	R	and	Shiny	for	Point	and	Click	ADaM	Analysis](http://www.phusewiki.org/docs/Conference%202014%20CS%20Presentations/CS05.pdf)
+  - [Dynamic Display of Patient Profiles](http://www.phusewiki.org/docs/CSS2015Presentations/PP26FINAL.pdf)
+  - [Empowering Users By Creating Data Visualization Applications In R/Shiny](http://www.pharmasug.org/proceedings/2016/DG/PharmaSUG-2016-DG10.pdf)
+  - [Addition of R Programming in Clinical Domain](http://www.iasct.net/z_uploads/papers/48_Addition%20of%20R%20Programming%20in%20Clinical%20Domain.pdf)
+  
+#### Other
+ - [Bayesian inference](https://r.amherst.edu/apps/nhorton/Shiny-Bayes/)
+ - [PeLiCa - The Peptide Library Calculator](http://www.pelica.org/)
+ - [Survival Analysis (SASR)](https://jzliu.shinyapps.io/SASR/)
+ - [MAVIS - meta-analysis](http://kylehamilton.net/shiny/MAVIS/)
+ - [A social network for clinical trial designers, under development](https://github.com/professorbeautiful/CTDesignExperimenter)
+ - [Ebola Model](https://gallery.shinyapps.io/Ebola-Dynamic/)
+ - [CDC Data Visualization](https://gallery.shinyapps.io/CDCPlot/)
+ - [Using R for Biomedical Statistics booklet](http://a-little-book-of-r-for-biomedical-statistics.readthedocs.io/en/latest/)
+
+#### Other
+ 
+ - [Randomization table for clinical trials](https://aurora.shinyapps.io/random_gen/)
+ - [Plot Your Data](https://pharmacometrics.shinyapps.io/ggplotmydata/ggplotwithyourdata.Rmd)
+ - [Ibuprofen Dosing Regimens ](https://acp-unisa.shinyapps.io/Ibuprofen/)
+ - [Analyze Data on Socrata using CSV Open Data APIs](https://marks-skram.shinyapps.io/shiny_socrata/)
+ - [MARS, Meta-Analysis, for 'modeling visualization' in Pharmacometrics](https://jzliu.shinyapps.io/MARS/)
+ - [Information on R in clinical research by Adrian Olszewski](http://www.r-clinical-research.com/)
+ - [Documents for the use of both RStudio IDE and Shiny Server Pro commercial products in regulated clinical trial environments here](https://www.rstudio.com/about/)
