@@ -1,6 +1,6 @@
 ---
 title: "Intro to Shiny, R Markdown, & HTML Widgets - Application in Drug Development"
-author: "Phil Bowsher - 2016 Midwest Biopharmaceutical Statistics Workshop" [&lt;phil@rstudio.com&gt;](mailto:phil@rstudio.com)"
+author: "Phil Bowsher - 2016 Midwest Biopharmaceutical Statistics Workshop [&lt;phil@rstudio.com&gt;](mailto:phil@rstudio.com)"
 date: "Monday, May 16th, 2016"
 output: 
   ioslides_presentation:
