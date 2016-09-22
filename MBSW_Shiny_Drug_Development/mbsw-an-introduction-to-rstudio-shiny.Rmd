@@ -566,6 +566,7 @@ shinyApp(ui=ui,
   - [Visualize and explore an entire genome](https://gallery.shinyapps.io/genome_browser/)
   - [Use phenotypes and genotypes to detect novel disease gene candidates ](http://omimexplorer.research.bcm.edu:3838/omim_explorer/)
   - [Visualisation of proteomics data using R and Bioconductor](https://www.bioconductor.org/packages/release/data/experiment/vignettes/RforProteomics/inst/doc/RProtVis.html)
+  - [bioCancer: Interactive Multi-OMICS Cancers Data Visualization and Analysis](https://www.bioconductor.org/packages/devel/bioc/vignettes/bioCancer/inst/doc/bioCancer.html) & uses [Radiant, an open-source platform-independent browser-based interface for business analytics in R using R and Shiny](https://radiant-rstats.github.io/docs/)
   
 ### Teaching
  - [Web Application Teaching Tools for Statistics Using R and Shiny](http://escholarship.org/uc/item/00d4q8cp)
