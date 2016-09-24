@@ -1,0 +1,11 @@
+name: mbsw-shiny-doc
+title: MBSW-Shiny-doc
+account: philbowsher
+server: beta.rstudioconnect.com
+appId: 1865
+bundleId: 3735
+url: https://beta.rstudioconnect.com/content/1865/
+when: 1474726465.35849
+asMultiple: TRUE
+asStatic: FALSE
+ignoredFiles: pharmarmd.Rmd|shiny-kmeans.Rmd

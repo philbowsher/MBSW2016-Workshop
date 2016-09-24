@@ -11,9 +11,17 @@ output:
 
 ## Introduction
 
+Presentation and code are via the links below:
+
+Presentation:
+https://beta.rstudioconnect.com/content/1772/
+
+code:
+https://github.com/philbowsher/MBSW2016-Workshop
+
 R is a powerful programming language for statistical computing with many packages and tools with application in drug development. 
 
-The goal of this article is to arm you with tools and techniques for using R with application in drug development. This article is supplimental to the workshop at the 2016 Midwest Biopharmaceutical Statistics Workshop on
+The goal of this article is to arm you with tools and techniques for using R with application in drug development. This article is a summary of the workshop at the 2016 Midwest Biopharmaceutical Statistics Workshop on
 Monday, May 16th, 2016.
 
 We'll cover three main approaches:
@@ -132,6 +140,7 @@ We'll cover three main approaches:
   - [Visualize and explore an entire genome](https://gallery.shinyapps.io/genome_browser/)
   - [Use phenotypes and genotypes to detect novel disease gene candidates ](http://omimexplorer.research.bcm.edu:3838/omim_explorer/)
   - [Visualisation of proteomics data using R and Bioconductor](https://www.bioconductor.org/packages/release/data/experiment/vignettes/RforProteomics/inst/doc/RProtVis.html)
+  - [bioCancer: Interactive Multi-OMICS Cancers Data Visualization and Analysis](https://www.bioconductor.org/packages/devel/bioc/vignettes/bioCancer/inst/doc/bioCancer.html) & uses [Radiant, an open-source platform-independent browser-based interface for business analytics in R using R and Shiny](https://radiant-rstats.github.io/docs/)
   
 #### Teaching
  - [Web Application Teaching Tools for Statistics Using R and Shiny](http://escholarship.org/uc/item/00d4q8cp)
@@ -177,6 +186,7 @@ We'll cover three main approaches:
  - [Plot Your Data](https://pharmacometrics.shinyapps.io/ggplotmydata/ggplotwithyourdata.Rmd)
  - [Ibuprofen Dosing Regimens ](https://acp-unisa.shinyapps.io/Ibuprofen/)
  - [Analyze Data on Socrata using CSV Open Data APIs](https://marks-skram.shinyapps.io/shiny_socrata/)
- - [MARS, Meta-Analysis, for 'modeling visualization' in Pharmacometrics](https://jzliu.shinyapps.io/MARS/)
- - [Information on R in clinical research by Adrian Olszewski](http://www.r-clinical-research.com/)
- - [Documents for the use of both RStudio IDE and Shiny Server Pro commercial products in regulated clinical trial environments here](https://www.rstudio.com/about/)
+ </div>
+- [MARS, Meta-Analysis, for 'modeling visualization' in Pharmacometrics](https://jzliu.shinyapps.io/MARS/)
+- [Information on R in clinical research by Adrian Olszewski](http://www.r-clinical-research.com/)
+- [Documents for the use of both RStudio IDE and Shiny Server Pro commercial products in regulated clinical trial environments here](https://www.rstudio.com/about/)

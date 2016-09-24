@@ -94,9 +94,13 @@ a {
 
 ## Before we begin
 
- - Slides and exercises also available on GitHub:
+- Slides and exercises also available on GitHub:
 
 https://github.com/philbowsher/MBSW2016-Workshop
+
+- Summary doc:
+
+https://beta.rstudioconnect.com/content/1865/MBSW-doc.html
 
 # Overview
 
