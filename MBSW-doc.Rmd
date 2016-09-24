@@ -44,26 +44,26 @@ We'll cover three main approaches:
 
 ### Shiny
 
-### Shiny Development Example - 1 - Setup - 050-kmeans-example
+### Shiny Development Example - 1 - Setup -- `050-kmeans-example`
 
 - Go [here](http://shiny.rstudio.com/gallery/kmeans-example.html)
 - Create a new multi file shiny app in the IDE by going to 'File' and select 'New File' and select 'Shiny Web App...' and create a new multiple file app and title it 'clustering'
 - Copy over the ui.R and app.R files with the code found [here:](https://github.com/rstudio/shiny-examples/tree/master/050-kmeans-example)
 - Click 'Run App' in the IDE when done
 
-### Shiny Development Example - 2 - cluster_ecoli_shiny
+### Shiny Development Example - 2 -- `cluster_ecoli_shiny` 
 
 - E.coli Example - Adaption of the app by Ichsan Hariadi
 - Data are [here](https://archive.ics.uci.edu/ml/datasets/Ecoli)
 - Run the ui.R file in the cluster_ecoli_shiny folder
 
-### Shiny Development Example - 3 - clusterMBSW
+### Shiny Development Example - 3 -- `clusterMBSW`
 
 - shinydashboard - An adaptation of the Ecoli app to demonstrate the shinydashboard package.
 - Data are [here](https://archive.ics.uci.edu/ml/datasets/Ecoli)
 - Run the app.R file in the clusterMBSW folder
 
-### Shiny Development Example - 4 - flexdashboard - Publish Data Visualizations as a Dashboard
+### Shiny Development Example - 4 - flexdashboard - Publish Data Visualizations as a Dashboard -- `shiny-kmeans.Rmd`
 
 - [flexdashboard](http://rmarkdown.rstudio.com/flexdashboard/)
 - [Gene Expression Biclustering - Bryan Lewis](https://jjallaire.shinyapps.io/shiny-biclust/)
@@ -76,7 +76,7 @@ We'll cover three main approaches:
 - Create a new R Markdown document in the IDE by going to 'File' and select 'New File' and select 'R Markdown...' and create a new document and leave output as HTML
 - Then select Knit and save it as Example.RMD
 
-### OpenFDA Analysis - R Markdown Report Demo - pharmarmd.Rmd
+### OpenFDA Analysis - R Markdown Report Demo -- `pharmarmd.Rmd`
 
 - [ropenhealth/openfda](https://github.com/rOpenHealth/openfda)
 - [openFDA API endpoint for adverse drug events](https://open.fda.gov/drug/event/)
@@ -100,7 +100,7 @@ We'll cover three main approaches:
 
 ## HTML Widgets
 
-### HTML Widgets &mdash; Leaflet Example - Leaflet.R
+### HTML Widgets &mdash; Leaflet Example -- `Leaflet.R`
 
 - Leaflet Example 
 - Viewing Starbucks Locations Near the MBSW Conference
@@ -186,7 +186,6 @@ We'll cover three main approaches:
  - [Plot Your Data](https://pharmacometrics.shinyapps.io/ggplotmydata/ggplotwithyourdata.Rmd)
  - [Ibuprofen Dosing Regimens ](https://acp-unisa.shinyapps.io/Ibuprofen/)
  - [Analyze Data on Socrata using CSV Open Data APIs](https://marks-skram.shinyapps.io/shiny_socrata/)
- </div>
-- [MARS, Meta-Analysis, for 'modeling visualization' in Pharmacometrics](https://jzliu.shinyapps.io/MARS/)
-- [Information on R in clinical research by Adrian Olszewski](http://www.r-clinical-research.com/)
-- [Documents for the use of both RStudio IDE and Shiny Server Pro commercial products in regulated clinical trial environments here](https://www.rstudio.com/about/)
+ - [MARS, Meta-Analysis, for 'modeling visualization' in Pharmacometrics](https://jzliu.shinyapps.io/MARS/)
+ - [Information on R in clinical research by Adrian Olszewski](http://www.r-clinical-research.com/)
+ - [Documents for the use of both RStudio IDE and Shiny Server Pro commercial products in regulated clinical trial environments here](https://www.rstudio.com/about/)
