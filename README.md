@@ -4,6 +4,10 @@ Live Presentation is here:
 
 https://beta.rstudioconnect.com/content/1772/
 
+Summary doc is here:
+
+https://beta.rstudioconnect.com/content/1865/MBSW-doc.html
+
 Presentations and code from workshop.
 
 Requires the following packages from CRAN:
